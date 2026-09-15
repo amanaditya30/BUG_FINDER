@@ -25,7 +25,7 @@ def find_topper(students):
         average = calculate_average(marks)
 
         if average > highest_marks:
-            highest_marks = marks
+            highest_marks = average
             topper = name
 
     return topper, highest_marks
