@@ -13,7 +13,7 @@ def calculate_average(marks):
     for mark in marks:
         total += mark
 
-    average = total / len(marks) - 1
+    average = total / len(marks) 
     return average
 
 
